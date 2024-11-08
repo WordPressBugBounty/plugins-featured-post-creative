@@ -41,7 +41,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 									<tr>
 										<td>
 											<p><?php esc_html_e( 'Boost design and best solution for your website.', 'featured-post-creative' ); ?></p> <br/>
-											<a class="button button-primary button-orange" href="<?php echo esc_url( WPFP_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><?php esc_html_e( 'Grab Now', 'featured-post-creative' ); ?></a>
+											<a class="button button-primary button-orange" href="<?php echo esc_url( WPFP_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><?php esc_html_e( 'Try Pro with Back Friday Deals', 'featured-post-creative' ); ?></a>
 										</td>
 									</tr>
 								</tbody>
@@ -145,7 +145,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								<li><?php esc_html_e( '100% Multi language', 'featured-post-creative' ); ?></li>
 							</ul>
 							<div class="upgrade-to-pro"><?php echo sprintf( __( 'Gain access to <strong>WP Featured Post</strong>', 'featured-post-creative' ) ); ?></div>
-							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url( WPFP_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><?php esc_html_e('Grab Now', 'featured-post-creative'); ?></a>
+							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url( WPFP_PLUGIN_LINK_UNLOCK ); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'featured-post-creative'); ?></a>
 						</div><!-- .inside -->
 					</div><!-- #general -->
 				</div><!-- .meta-box-sortables -->

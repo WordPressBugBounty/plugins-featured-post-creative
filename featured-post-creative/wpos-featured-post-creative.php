@@ -6,7 +6,7 @@
  * Author: WP OnlineSupport, Essential Plugin
  * Text Domain: featured-post-creative
  * Domain Path: /languages/
- * Version: 1.5
+ * Version: 1.5.1
  * Author URI: https://www.essentialplugin.com/
  *
  * @package WordPress
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WPFP_VERSION' ) ) {
-	define( 'WPFP_VERSION', '1.5' ); // Version of plugin
+	define( 'WPFP_VERSION', '1.5.1' ); // Version of plugin
 }
 // if( ! defined( 'WPFP_NAME' ) ) {
 // 	define( 'WPFP_NAME', 'Featured Post Creative' ); // Version of plugin
@@ -42,7 +42,7 @@ if( ! defined( 'WPFP_META_PREFIX' ) ) {
 	define( 'WPFP_META_PREFIX', '_wpfp_' ); // Plugin metabox prefix
 }
 if( ! defined( 'WPFP_PLUGIN_LINK_UNLOCK' ) ) {
-	define( 'WPFP_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/essential-plugin-bundle-pricing/?utm_source=WP&utm_medium=Featured-Post&utm_campaign=Features-PRO' ); // Plugin link
+	define( 'WPFP_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Featured-Post&utm_campaign=Features-PRO' ); // Plugin link
 }
 if( ! defined( 'WPFP_PLUGIN_LINK_UPGRADE' ) ) {
 	define( 'WPFP_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Featured-Post&utm_campaign=Upgrade-PRO' ); // Plugin Check link

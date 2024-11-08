@@ -1,9 +1,9 @@
 ﻿=== Featured Post Creative ===
 Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, patelketan
-Tags: featured post, featured post grid, featured post widget, responsive featured post grid, responsive featured post, brick layout, featured post brick layout,  free featured posts, add featured posts, display featured posts
+Tags: featured post widget, responsive featured post grid, featured post brick layout, free featured posts, display featured posts
 Requires at least: 4.0
-Tested up to: 6.4.1
-Stable tag: 1.5
+Tested up to: 6.6.2
+Stable tag: 1.5.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -119,6 +119,9 @@ You can use same parameter with Gridbox shortcode.
 3. Featured post Star
 
 == Changelog ==
+
+= 1.5.1 (08, Nov 2024) =
+* [*] Check compatibility with WordPress version 6.6.2
 
 = 1.5 (21, Nov 2023) =
 * [*] Updated analytics SDK.

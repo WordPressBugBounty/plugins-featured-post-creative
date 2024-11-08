@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <div class="wrap">
-	<h2><?php esc_html_e( 'WP Featured Post Creative', 'featured-post-creative' ); ?></h2><br />
+	<h2 style="text-align: center;"><?php esc_html_e( 'WP Featured Post Creative', 'featured-post-creative' ); ?></h2><br />
 	<style>
 		.wpos-new-feature{font-size: 10px; color: #fff; font-weight: bold; background-color: #03aa29; padding:1px 4px; font-style: normal;}
 		.wpos-plugin-pricing-table thead th h2{font-weight: 400; font-size: 2.4em; line-height:normal; margin:0px; color: #2ECC71;}
@@ -48,6 +48,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 		.wpos-epb{color:#ff2700 !important;}
 	</style>
 	
+	<div class="igsp-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPFP_PLUGIN_LINK_UPGRADE ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPFP_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
 	<div id="poststuff">
 		<div id="post-body" class="metabox-holder">
 			<div id="post-body-content">
@@ -64,7 +68,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<th>
 								<h2 class="wpos-epb">Premium</h2>
 								<p>Gain access to <strong>WP Featured Post</strong></p>
-								<a href="<?php echo esc_url( WPFP_PLUGIN_LINK_UPGRADE ); ?>" target="_blank">Buy Now</a></td>
+								<a href="<?php echo esc_url( WPFP_PLUGIN_LINK_UPGRADE ); ?>" target="_blank">Try Pro with Back Friday <details></details></a></td>
 							</th>
 						</tr>
 					</thead>
@@ -74,7 +78,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<th></th>
 							<td></td>
 							<td><p>Gain access to <strong>WP Featured Post</strong></p>
-							<a href="<?php echo esc_url(WPFP_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Buy Now</a></td></td>
+							<a href="<?php echo esc_url(WPFP_PLUGIN_LINK_UPGRADE); ?>" target="_blank">Try Pro with Back Friday <details></details></a></td></td>
 						</tr>
 					</tfoot>
 					<tbody>
