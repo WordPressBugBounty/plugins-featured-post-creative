@@ -100,7 +100,7 @@ class Wpfp_Admin {
 		add_submenu_page( 'wpfp-about', __( 'Settings - Featured Post', 'featured-post-creative' ), __( 'Settings', 'featured-post-creative' ), 'manage_options', 'wpfp-setting', array( $this, 'wpfp_settings_page' ));
 
 		// Register plugin premium page
-		add_submenu_page( 'wpfp-about', __( 'Upgrade To Premium - Featured Post', 'featured-post-creative' ), '<span style="color:#ff2700">'.__( 'Upgrade To PRO – Early Back Friday Deals', 'featured-post-creative' ).'</span>', 'manage_options', 'wpfp-premium', array( $this, 'wpfp_premium_page' ));
+		add_submenu_page( 'wpfp-about', __( 'Upgrade To Premium - Featured Post', 'featured-post-creative' ), '<span style="color:#2ECC71">'.__( 'Upgrade To PRO', 'featured-post-creative' ).'</span>', 'manage_options', 'wpfp-premium', array( $this, 'wpfp_premium_page' ));
 	}
 
 	/**

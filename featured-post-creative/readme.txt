@@ -2,8 +2,8 @@
 Contributors: wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, patelketan
 Tags: featured post widget, responsive featured post grid, featured post brick layout, free featured posts, display featured posts
 Requires at least: 4.0
-Tested up to: 6.6.2
-Stable tag: 1.5.1
+Tested up to: 6.7.1
+Stable tag: 1.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -119,6 +119,9 @@ You can use same parameter with Gridbox shortcode.
 3. Featured post Star
 
 == Changelog ==
+
+= 1.5.2 (20, January 2025) =
+* [*] Check compatibility with WordPress version 6.7.1
 
 = 1.5.1 (08, Nov 2024) =
 * [*] Check compatibility with WordPress version 6.6.2
