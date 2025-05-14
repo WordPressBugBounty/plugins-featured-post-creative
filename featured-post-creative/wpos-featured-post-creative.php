@@ -3,14 +3,14 @@
  * Plugin Name: Featured Post Creative
  * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/featured-post-creative/
  * Description: Featured Posts allows you to add featured posts to your website via shortcode and widget.
- * Author: WP OnlineSupport, Essential Plugin
+ * Author: Essential Plugin
  * Text Domain: featured-post-creative
  * Domain Path: /languages/
- * Version: 1.5.2
+ * Version: 1.5.3
  * Author URI: https://www.essentialplugin.com/
  *
- * @package WordPress
- * @author WP OnlineSupport
+ * @package Featured Post Creative
+ * @author Essential Plugin
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -18,11 +18,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WPFP_VERSION' ) ) {
-	define( 'WPFP_VERSION', '1.5.2' ); // Version of plugin
+	define( 'WPFP_VERSION', '1.5.3' ); // Version of plugin
 }
-// if( ! defined( 'WPFP_NAME' ) ) {
-// 	define( 'WPFP_NAME', 'Featured Post Creative' ); // Version of plugin
-// }
 if( ! defined( 'WPFP_DIR' ) ) {
 	define( 'WPFP_DIR', dirname( __FILE__ ) ); // Plugin dir
 }
@@ -47,7 +44,6 @@ if( ! defined( 'WPFP_PLUGIN_LINK_UNLOCK' ) ) {
 if( ! defined( 'WPFP_PLUGIN_LINK_UPGRADE' ) ) {
 	define( 'WPFP_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Featured-Post&utm_campaign=Upgrade-PRO' ); // Plugin Check link
 }
-
 if( ! defined( 'WPFP_SITE_LINK' ) ) {
 	define( 'WPFP_SITE_LINK','https://www.essentialplugin.com' ); // Plugin link
 }
