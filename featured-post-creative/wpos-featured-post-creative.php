@@ -6,7 +6,7 @@
  * Author: Essential Plugin
  * Text Domain: featured-post-creative
  * Domain Path: /languages/
- * Version: 1.5.3
+ * Version: 1.5.4
  * Author URI: https://www.essentialplugin.com/
  *
  * @package Featured Post Creative
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WPFP_VERSION' ) ) {
-	define( 'WPFP_VERSION', '1.5.3' ); // Version of plugin
+	define( 'WPFP_VERSION', '1.5.4' ); // Version of plugin
 }
 if( ! defined( 'WPFP_DIR' ) ) {
 	define( 'WPFP_DIR', dirname( __FILE__ ) ); // Plugin dir
