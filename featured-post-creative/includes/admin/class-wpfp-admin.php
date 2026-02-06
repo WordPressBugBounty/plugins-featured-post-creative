@@ -209,10 +209,8 @@ class Wpfp_Admin {
 		$result['success']	= 0;
 		$nonce				= ! empty( $_POST['nonce'] ) ? esc_attr( $_POST['nonce'] )	: '';
 
-		if( ! empty( $_POST['feat_id'] ) && wp_verify_nonce( $nonce, 'wpfp-featured-data-nonce' )) {
-
-			update_post_meta( $_POST['feat_id'], $prefix.'featured_post', $_POST['is_feat'] );
-
+		if ( ! empty( $_POST['feat_id'] ) && wp_verify_nonce( $nonce, 'wpfp-featured-data-nonce' ) && current_user_can( 'edit_post', $_POST['feat_id'] )) {
+			update_post_meta( $_POST['feat_id'], $prefix . 'featured_post', $_POST['is_feat'] );
 			$result['success']	= 1;
 		}
 		wp_send_json( $result );

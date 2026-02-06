@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Featured Post Creative
- * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/featured-post-creative/
+ * Plugin URI: https://essentialplugin.com/wordpress-plugin/featured-post-creative/
  * Description: Featured Posts allows you to add featured posts to your website via shortcode and widget.
  * Author: Essential Plugin
  * Text Domain: featured-post-creative
  * Domain Path: /languages/
- * Version: 1.5.4
- * Author URI: https://www.essentialplugin.com/
+ * Version: 1.5.7
+ * Author URI: https://essentialplugin.com/
  *
  * @package Featured Post Creative
  * @author Essential Plugin
@@ -17,8 +17,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-if( ! defined( 'WPFP_VERSION' ) ) {
-	define( 'WPFP_VERSION', '1.5.4' ); // Version of plugin
+if ( ! defined( 'WPFP_VERSION' ) ) {
+	define( 'WPFP_VERSION', '1.5.7' ); // Version of plugin
 }
 if( ! defined( 'WPFP_DIR' ) ) {
 	define( 'WPFP_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -39,13 +39,13 @@ if( ! defined( 'WPFP_META_PREFIX' ) ) {
 	define( 'WPFP_META_PREFIX', '_wpfp_' ); // Plugin metabox prefix
 }
 if( ! defined( 'WPFP_PLUGIN_LINK_UNLOCK' ) ) {
-	define( 'WPFP_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Featured-Post&utm_campaign=Features-PRO' ); // Plugin link
+	define( 'WPFP_PLUGIN_LINK_UNLOCK', 'https://essentialplugin.com/pricing/?utm_source=WP&utm_medium=Featured-Post&utm_campaign=Features-PRO' ); // Plugin link
 }
 if( ! defined( 'WPFP_PLUGIN_LINK_UPGRADE' ) ) {
-	define( 'WPFP_PLUGIN_LINK_UPGRADE', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Featured-Post&utm_campaign=Upgrade-PRO' ); // Plugin Check link
+	define( 'WPFP_PLUGIN_LINK_UPGRADE', 'https://essentialplugin.com/pricing/?utm_source=WP&utm_medium=Featured-Post&utm_campaign=Upgrade-PRO' ); // Plugin Check link
 }
 if( ! defined( 'WPFP_SITE_LINK' ) ) {
-	define( 'WPFP_SITE_LINK','https://www.essentialplugin.com' ); // Plugin link
+	define( 'WPFP_SITE_LINK','https://essentialplugin.com' ); // Plugin link
 }
 
 /**
